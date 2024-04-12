@@ -22,7 +22,7 @@
     align-items: flex-start;
 }
     
-.navbar a {
+.navbar-content a {
     color: aliceblue;
     text-decoration: none;
     margin-bottom: 10px;
@@ -30,7 +30,7 @@
     font-size: 1em;
     font-weight: 600;
 }
-.navbar a:hover {
+.navbar-content a:hover {
     animation: enlargeAndShrink 4s ease-in-out forwards;
 }
     
@@ -49,7 +49,7 @@
 
 /****HEADER****/
 
-header {
+#section-header {
     height: 100vh;
     background-image: url("resources/background.jpeg");
     background-position: center center;
@@ -62,15 +62,92 @@ header {
     text-align: center;
 }
 
-header h1, header h2 {
+#section-header h1, header h2 {
     margin: 0;
     color: aliceblue;
 }
-header h1{
+#section-header h1{
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 3.1em;
 }
-header h2{
+#section-header h2{
     font-size: 2.1em;
     font-family: 'Sniglet', system-ui;
+}
+
+
+/****ABOUT ME****/
+
+#section-about-me {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    width: 100vw;
+    height: 100vh;
+    background-color: #7cc3ea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-container {
+    position: relative;
+    width: 80vw;
+    margin: 0px;
+    padding: 0px;
+}
+
+.about-me-container img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+}
+
+.about-me-text p{
+    font-family: 'Sniglet', system-ui;
+    margin-bottom: 0px;
+}
+.about-me-text a{
+    font-family: 'Sniglet', system-ui;
+    font-weight: 700;
+    font-size: 1em; 
+    text-decoration: none;
+    animation: enlargeAndShrink 4s infinite ease-in-out;
+    color: #7cc3ea;
+}
+.about-me-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #7cc3ea;
+    font-size: 2vw; 
+    text-align: center;
+    font-size: 1em;
+    
+}
+
+.about-me-text h3{
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 2em !important;
+}
+
+@media (max-width: 768px) {
+    .about-me-container {
+        width: 93vw;
+    }
+    .about-me-text p{
+        font-size: 0.8em;
+    }
+}
+
+@keyframes enlargeAndShrink {
+    0%, 100% {
+        font-size: 1em; 
+    }
+    50% {
+        font-size: 1.13em; 
+    }
+}
+.about-me-text a{
+    margin-right: 7%;
 }
