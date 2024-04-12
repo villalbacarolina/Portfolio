@@ -151,3 +151,56 @@
 .about-me-text a{
     margin-right: 7%;
 }
+
+/****EDUCATION****/
+
+#education-section {
+    background-color: #7cc3ea;
+    padding: 5%;
+    color: aliceblue;
+    font-family: 'Sniglet', system-ui;
+}
+
+.educations a{
+    color: #68A4C4;
+    text-decoration: none;
+    transition: font-size 0.1s ease; 
+}
+
+.educations a:hover{
+    color: aliceblue;
+    font-size: 1.05em;
+}
+
+.educations h6{
+    font-weight: 600;
+    
+}
+
+.educations h3{
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 2em;
+}
+
+.educations h4{
+    font-weight: 600;
+}
+
+.educations h6, a, p{
+    margin: 0%;
+}
+
+.education{
+    margin: 5%;
+}
+
+.education, .certificate, #university, #certifications {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.education{
+    margin-top:2%;
+    margin-bottom:2%;
+}
