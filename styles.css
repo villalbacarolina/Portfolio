@@ -1,8 +1,9 @@
-/*NAVBAR*/
+/****NAVBAR****/
 
 .navbar-container {
     width: 20%;
     height: 20%;
+    position: fixed;
 }
 
 .navbar {
@@ -33,7 +34,7 @@
     animation: enlargeAndShrink 4s ease-in-out forwards;
 }
     
-.container:hover .navbar, .navbar:hover {
+.navbar-container:hover .navbar, .navbar:hover {
     left: 0; 
 }
     
@@ -44,4 +45,33 @@
     50% {
         font-size: 1.13em; 
     }
+}
+
+/****HEADER****/
+
+header {
+    height: 100vh;
+    background-image: url("resources/background.jpeg");
+    background-position: center center;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: 'KawaiiBubble', sans-serif;
+    margin: 0;
+}
+h1{
+    font-size: 3.1em;
+    color: aliceblue;
+}
+h2{
+    font-size: 2.1em;
+    color: aliceblue;
+    font-family: 'Sniglet', system-ui;
 }
