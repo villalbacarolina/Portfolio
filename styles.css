@@ -1,0 +1,47 @@
+/*NAVBAR*/
+
+.navbar-container {
+    width: 20%;
+    height: 20%;
+}
+
+.navbar {
+    position: fixed;
+    left: -80px;
+    transform: translateY(50%);
+    background-color: transparent;
+    padding: 20px;
+    transition: left 0.3s ease;
+    z-index: 1;
+}
+    
+.navbar-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+    
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-bottom: 10px;
+    font-family: 'Sniglet', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+.navbar a:hover {
+    animation: enlargeAndShrink 4s ease-in-out forwards;
+}
+    
+.container:hover .navbar, .navbar:hover {
+    left: 0; 
+}
+    
+@keyframes enlargeAndShrink {
+    0%, 100% {
+        font-size: 1em; 
+    }
+    50% {
+        font-size: 1.13em; 
+    }
+}
