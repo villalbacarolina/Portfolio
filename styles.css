@@ -400,6 +400,53 @@
     background-color: #7cc3ea;
 }
 
+/****PROJECTS****/
+
+#projects-section{
+    background-color: #7cc3ea;
+    position: relative;
+}
+
+#projects-section .image-container {
+    position: absolute;
+    position: relative;
+    display: inline-block;
+    color: #7cc3ea;
+    text-align: center; 
+  }
+  
+#projects-section .hover-image {
+    position: absolute;
+    width: 40vw;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+  
+#projects-section .image-container:hover .hover-image {
+    opacity: 1;
+}
+  
+#projects-section .original-image {
+    display: block;
+    width: 40vw;
+    height: auto;
+}
+  
+#projects-section #cloud1{
+    transform: translate(30%, 35%);
+}
+
+#projects-section #cloud2{
+    transform: translate(20%, 35%);
+}
+
+#projects-section #cloud3{
+    transform: translate(73%, -10%);
+}
+  
+
 /****CONTACT****/
 
 #contact-section {
