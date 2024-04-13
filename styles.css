@@ -49,7 +49,7 @@
 
 /****HEADER****/
 
-#section-header {
+#header-section {
     height: 100vh;
     background-image: url("resources/background.jpeg");
     background-position: center center;
@@ -62,15 +62,15 @@
     text-align: center;
 }
 
-#section-header h1, header h2 {
+#header-section h1, header h2 {
     margin: 0;
     color: aliceblue;
 }
-#section-header h1{
+#header-section h1{
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 3.1em;
 }
-#section-header h2{
+#header-section h2{
     font-size: 2.1em;
     font-family: 'Sniglet', system-ui;
 }
@@ -78,7 +78,7 @@
 
 /****ABOUT ME****/
 
-#section-about-me {
+#about-me-section {
     padding-top: 3%;
     padding-bottom: 3%;
     width: 100vw;
@@ -355,4 +355,46 @@
         margin-bottom: 3%;
         margin-top: 3%;
     }
+}
+
+/****SOFT SKILLS****/
+
+#soft-skills-section h4, #soft-skills-section img {
+    margin: 0;
+    padding: 0;
+}
+
+#soft-skills-section {
+    width: 100vw;
+    background-color: aliceblue;
+    color: #7cc3ea;
+    font-family: 'Sniglet', system-ui;
+}
+ /*68a4c4*/
+#soft-skills-section h3 {
+    color: #7cc3ea;
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+#soft-skills-section h4{
+    font-size: 1.3em;
+}
+
+#soft-skills-section img {
+    width: 110vw;
+    height: 20vw;
+    transform: translateX(-5vw) !important;
+    background-color: #7cc3ea;
+}
+
+.cloudcontainer {
+    width: 100vw;
+    overflow: hidden;
+}
+
+.skills{
+    background-color: #7cc3ea;
 }
