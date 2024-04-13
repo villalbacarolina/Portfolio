@@ -4,6 +4,7 @@
     width: 20%;
     height: 20%;
     position: fixed;
+    z-index: 9999;
 }
 
 .navbar {
