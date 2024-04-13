@@ -399,3 +399,54 @@
 .skills{
     background-color: #7cc3ea;
 }
+
+/****CONTACT****/
+
+#contact-section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #7cc3ea;
+}
+
+#contact-section .text {
+    position: absolute;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 15%;
+}
+
+#contact-section h3 {
+    font-family: 'KawaiiBubble', sans-serif;
+    font-size: 1.8em;
+    margin: 0; 
+}
+
+#contact-section a {
+    font-family: 'Sniglet', system-ui;
+    font-weight: 700;
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 1em;
+    
+}
+
+#contact-section a:hover {
+    animation: enlargeAndShrink 4s ease-in-out forwards;
+}
+
+#contact-section img {
+    width: 100vw;
+    display: block; 
+}
+
+@keyframes enlargeAndShrink {
+    0%, 100% {
+        font-size: 1em; 
+    }
+    50% {
+        font-size: 1.13em; 
+    }
+}
