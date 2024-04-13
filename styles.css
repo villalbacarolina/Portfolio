@@ -105,7 +105,9 @@
 
 .about-me-text p{
     font-family: 'Sniglet', system-ui;
-    margin-bottom: 0px;
+    margin-top: 5%;
+    margin-bottom: 3% !important;
+    font-size: 98%; 
 }
 .about-me-text a{
     font-family: 'Sniglet', system-ui;
