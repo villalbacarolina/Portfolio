@@ -274,7 +274,7 @@
 }
 
 #space{
-    margin-right: 5px;
+    margin-right: 5px !important;
 }
 
 #experience-section h6{
