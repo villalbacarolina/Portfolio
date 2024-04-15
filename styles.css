@@ -25,7 +25,6 @@
     
 .navbar-content a {
     color: aliceblue;
-    -webkit-text-stroke: 0.01px #ffffff;
     text-shadow:
         1.5px 0 0 #7cc3ea,
         0 1.5px 0 #7cc3ea,
