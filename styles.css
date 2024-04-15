@@ -175,29 +175,28 @@
 #education-section a{
     color: #68A4C4 !important;
     text-decoration: none !important;
-    transition: font-size 0.1s ease; !important 
+    transition: font-size 0.1s ease; 
 }
 
 #education-section a:hover{
-    color: aliceblue;
     font-size: 1.05em !important;
 }
 
 #education-section h6{
-    font-weight: 600 !important;
+    font-weight: 600;
     
 }
 
 #education-section h3{
     font-family: 'KawaiiBubble', sans-serif;
-    font-size: 2em !important;
+    font-size: 2em ;
 }
 
 #education-section h4{
-    font-weight: 600 !important;
+    font-weight: 600 ;
 }
 
-#education-section h6, a, p{
+#education-section h6, #education-section a, p{
     margin: 0% !important;
 }
 
@@ -208,13 +207,8 @@
 .education, .certificate, #university, #certifications {
     margin: 0 !important;
     padding: 0 !important;
-    box-sizing: border-box !important;
 }
 
-.education{
-    margin-top:2% !important;
-    margin-bottom:2% !important;
-}
 
 /****EXPERIENCE****/
 
