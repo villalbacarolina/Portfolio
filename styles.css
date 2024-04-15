@@ -380,7 +380,6 @@
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 2em;
     text-align: center;
-    margin-bottom: 2%;
 }
 
 #soft-skills-section h4{
@@ -438,17 +437,16 @@
 }
   
 #projects-section #cloud1{
-    transform: translate(30%, 35%);
+    transform: translate(32%, 18%);
 }
 
 #projects-section #cloud2{
-    transform: translate(20%, 35%);
+    transform: translate(20%, 10%);
 }
 
 #projects-section #cloud3{
-    transform: translate(73%, -10%);
+    transform: translate(73%, -20%);
 }
-  
 
 /****CONTACT****/
 
