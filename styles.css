@@ -25,15 +25,23 @@
     
 .navbar-content a {
     color: aliceblue;
+    -webkit-text-stroke: 0.01px #ffffff;
+    text-shadow:
+        1.5px 0 0 #7cc3ea,
+        0 1.5px 0 #7cc3ea,
+        -1.5px 0 0 #7cc3ea,
+        0 -1.5px 0 #7cc3ea;
     text-decoration: none;
     margin-bottom: 10px;
     font-family: 'Sniglet', sans-serif;
     font-size: 1em;
     font-weight: 600;
 }
+
 .navbar-content a:hover {
     animation: enlargeAndShrink 4s ease-in-out forwards;
 }
+
     
 .navbar-container:hover .navbar, .navbar:hover {
     left: 0; 
