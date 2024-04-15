@@ -172,13 +172,13 @@
 }
 
 #education-section a{
-    color: #68A4C4 !important;
+    color: #64a1c3 !important;
     text-decoration: none !important;
     transition: font-size 0.1s ease; 
 }
 
 #education-section a:hover{
-    font-size: 1.05em !important;
+    animation: enlargeAndShrink 4s ease-in-out forwards;
 }
 
 #education-section h6{
