@@ -172,48 +172,48 @@
     font-family: 'Sniglet', system-ui;
 }
 
-.educations a{
-    color: #68A4C4;
-    text-decoration: none;
-    transition: font-size 0.1s ease; 
+#education-section a{
+    color: #68A4C4 !important;
+    text-decoration: none !important;
+    transition: font-size 0.1s ease; !important 
 }
 
-.educations a:hover{
+#education-section a:hover{
     color: aliceblue;
-    font-size: 1.05em;
+    font-size: 1.05em !important;
 }
 
-.educations h6{
-    font-weight: 600;
+#education-section h6{
+    font-weight: 600 !important;
     
 }
 
-.educations h3{
+#education-section h3{
     font-family: 'KawaiiBubble', sans-serif;
-    font-size: 2em;
+    font-size: 2em !important;
 }
 
-.educations h4{
-    font-weight: 600;
+#education-section h4{
+    font-weight: 600 !important;
 }
 
-.educations h6, a, p{
-    margin: 0%;
+#education-section h6, a, p{
+    margin: 0% !important;
 }
 
-.education{
-    margin: 5%;
+#education-section .education{
+    margin: 5% !important;
 }
 
 .education, .certificate, #university, #certifications {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
 }
 
 .education{
-    margin-top:2%;
-    margin-bottom:2%;
+    margin-top:2% !important;
+    margin-bottom:2% !important;
 }
 
 /****EXPERIENCE****/
