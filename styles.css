@@ -9,7 +9,7 @@
 
 .navbar {
     position: fixed;
-    left: -80px;
+    left: -60px;
     transform: translateY(50%);
     background-color: transparent;
     padding: 20px;
