@@ -1,3 +1,11 @@
+/*
+body {
+    cursor: url('resources/cursor.png'), auto !important;
+    filter: drop-shadow(0 0 0 transparent) !important;
+}
+*/
+
+
 /****NAVBAR****/
 
 .navbar-container {
@@ -169,6 +177,7 @@
     padding: 3%;
     color: aliceblue;
     font-family: 'Sniglet', system-ui;
+    height: 100vh;
 }
 
 #education-section a {
@@ -208,7 +217,7 @@
 
 
 /****EXPERIENCE****/
-
+/*
 #experience-section {
     background-color: #7cc3ea;
     padding: 5%;
@@ -278,10 +287,11 @@
 #experience-section h6{
     font-size: 1.23em;
 }
-
+*/
 /****TECHNOLOGIES****/
 
 #technologies-section {
+    min-height: 100vh;
     background-color: #7cc3ea;
     color: aliceblue;
     font-family: 'Sniglet', system-ui;
@@ -447,21 +457,21 @@
 }
 
 /****CONTACT****/
-
 #contact-section {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: 100vh; /* Ensure section takes full viewport height */
     background-color: #7cc3ea;
+    overflow: hidden; /* Hide any overflow from the image */
 }
 
 #contact-section .text {
-    position: absolute;
     text-align: center;
     color: #ffffff;
-    margin-top: 15%;
+    z-index: 1; /* Ensure text is above the image */
 }
 
 #contact-section h3 {
@@ -476,7 +486,6 @@
     text-decoration: none;
     color: #ffffff; 
     font-size: 1em;
-    
 }
 
 #contact-section a:hover {
@@ -484,8 +493,11 @@
 }
 
 #contact-section img {
-    width: 100vw;
-    display: block; 
+    width: 100%;
+    position: absolute;
+    bottom: 0; /* Position image at the bottom */
+    left: 0;
+    z-index: 0; /* Ensure image is behind the text */
 }
 
 @keyframes enlargeAndShrink {
