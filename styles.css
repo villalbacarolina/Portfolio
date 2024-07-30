@@ -305,6 +305,10 @@ body {
 .header img {
     width: 40%;
 }
+  
+#cloud2{
+    transform: translate(-10%, 15%);
+}
 
 #technologies-section h3 {
     margin: 0;
@@ -314,21 +318,23 @@ body {
     font-size: 2em;
 }
 
+.technologies{
+    width: 40vw;
+}
+
 .technologies, .more-technologies {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap:1vw;
+    gap: 3vw;
+    align-items: center;
+    margin: 0 auto !important;
 }
 
 .technology {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 1px solid #ccc;
-    margin: 5px;
-    width: 150px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .technology img {
@@ -352,15 +358,11 @@ body {
     margin-bottom: 20px;
 }
 
-@media (max-width: 768px) {
-    .header img {
-        width: 100%;
-    }
+@media (max-width: 1024px) {
+}
 
-    .technology {
-        width: 100%;
-        margin: 5px 0;
-    }
+@media (max-width: 768px) {
+
 
     .techtitle {
         font-size: 1em;
@@ -370,10 +372,21 @@ body {
         margin-bottom: 3%;
         margin-top: 3%;
     }
+
+    .header img {
+        width: 40%;
+    }
 }
 
-
-
+@media (max-width: 480px) {
+    .technology {
+        width: calc(50% - 10px); 
+        
+    }
+    .header img {
+        width: 40%;
+    }
+}
 
 /****SOFT SKILLS****/
 
@@ -418,49 +431,7 @@ body {
 
 /****PROJECTS****/
 
-#projects-section{
-    background-color: #7cc3ea;
-    position: relative;
-}
 
-#projects-section .image-container {
-    position: absolute;
-    position: relative;
-    display: inline-block;
-    color: #7cc3ea;
-    text-align: center; 
-  }
-  
-#projects-section .hover-image {
-    position: absolute;
-    width: 40vw;
-    top: 0;
-    left: 0;
-    opacity: 0;
-    transition: opacity 0.3s ease-in-out;
-}
-  
-#projects-section .image-container:hover .hover-image {
-    opacity: 1;
-}
-  
-#projects-section .original-image {
-    display: block;
-    width: 40vw;
-    height: auto;
-}
-  
-#projects-section #cloud1{
-    transform: translate(32%, 18%);
-}
-
-#projects-section #cloud2{
-    transform: translate(20%, 10%);
-}
-
-#projects-section #cloud3{
-    transform: translate(73%, -20%);
-}
 
 /****CONTACT****/
 #contact-section {
