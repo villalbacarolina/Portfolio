@@ -288,8 +288,7 @@ body {
     font-size: 1.23em;
 }
 */
-/****TECHNOLOGIES****/
-
+/* TECHNOLOGIES */
 #technologies-section {
     min-height: 100vh;
     background-color: #7cc3ea;
@@ -297,6 +296,10 @@ body {
     font-family: 'Sniglet', system-ui;
     padding: 2%;
     text-align: center;
+}
+
+.header {
+    margin-bottom: 20px;
 }
 
 .header img {
@@ -311,35 +314,43 @@ body {
     font-size: 2em;
 }
 
+.technologies, .more-technologies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:1vw;
+}
+
 .technology {
-    margin-bottom: 10%;
-    text-align: center;
-    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin: 5px;
+    width: 150px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .technology img {
     width: 3em;
-}
-
-.technologies {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 10px;
 }
 
 .techtitle {
     font-weight: 600;
-    font-size: calc(1.1em);
-    margin-bottom: 2px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
 }
 
 #technologies-section p {
     margin-bottom: 0;
 }
 
-#technologies-section h4{
+#technologies-section h4 {
     font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 @media (max-width: 768px) {
     .header img {
@@ -347,27 +358,22 @@ body {
     }
 
     .technology {
-        padding: 0.2em;
-        margin: 2%;
-    }
-
-    .technologies {
-        flex-wrap: wrap;
-        margin: 0%;
+        width: 100%;
+        margin: 5px 0;
     }
 
     .techtitle {
         font-size: 1em;
     }
 
-    .technology {
-        flex: 0 0 100%;
-    }
     h3 {
         margin-bottom: 3%;
         margin-top: 3%;
     }
 }
+
+
+
 
 /****SOFT SKILLS****/
 
