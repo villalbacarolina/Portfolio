@@ -98,7 +98,7 @@ body {
     padding-top: 3%;
     padding-bottom: 3%;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #7cc3ea;
     display: flex;
     justify-content: center;
@@ -191,29 +191,65 @@ body {
 }
 
 #education-section h6 {
-    font-weight:900 !important;
+    font-weight: 900 !important;
 }
 
 #education-section h3 {
     font-family: 'KawaiiBubble', sans-serif;
-    font-size: 2em ;
+    font-size: 2em;
     margin-bottom: 3%;
 }
 
 #education-section h4 {
-    font-weight: 900 !important ;
+    font-weight: 900 !important;
 }
 
 #education-section h6, #education-section a, #education-section p {
     margin: 0% !important;
 }
 
-.education{
+.education {
     margin: 0%;
     margin-bottom: 1.4em;
 }
 
+.education-cloud {
+    height: 80vh;
+    width: auto;
+    position: absolute;
+    transform: translate(-50%, 0%);
+}
 
+/* Media queries for responsiveness */
+@media (max-width: 1200px) {
+    .education-cloud {
+        transform: translate(-60%, 0%);
+    }
+}
+
+@media (max-width: 992px) {
+    .education-cloud {
+        transform: translate(-70%, 0%);
+    }
+}
+
+@media (max-width: 768px) {
+    .education-cloud {
+        transform: translate(-150%, 0%);
+    }
+}
+
+@media (max-width: 576px) {
+    .education-cloud {
+        transform: translate(-150%, 0%);
+    }
+}
+
+@media (max-width: 400px) {
+    .education-cloud {
+        transform: translate(-150%, 0%);
+    }
+}
 
 
 /****EXPERIENCE****/
