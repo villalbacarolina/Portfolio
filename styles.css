@@ -177,7 +177,7 @@ body {
     padding: 3%;
     color: aliceblue;
     font-family: 'Sniglet', system-ui;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 #education-section a {
@@ -288,6 +288,7 @@ body {
     font-size: 1.23em;
 }
 */
+
 /* TECHNOLOGIES */
 #technologies-section {
     min-height: 100vh;
@@ -295,6 +296,8 @@ body {
     color: aliceblue;
     font-family: 'Sniglet', system-ui;
     padding: 2%;
+    padding-bottom: 5vh;
+    padding-top: 2vh;
     text-align: center;
 }
 
