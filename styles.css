@@ -214,12 +214,12 @@ body {
 }
 
 .education-cloud {
-    width: 90vh;
+    height: 80vh;
+    width: auto;
     position: absolute;
     transform: translate(-50%, 0%);
 }
 
-/* Media queries for responsiveness */
 @media (max-width: 1200px) {
     .education-cloud {
         transform: translate(-60%, 0%);
