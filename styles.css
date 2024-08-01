@@ -580,6 +580,20 @@ body {
     }
 }
 
+/****COPYRIGHT****/
+
+.copyright{
+    background-color: aliceblue;
+    color: #64a1c3;
+    text-align: center;
+}
+
+.copyright p{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Sniglet', system-ui;
+}
+
 /****General****/
 
 body{
