@@ -214,8 +214,7 @@ body {
 }
 
 .education-cloud {
-    height: 80vh;
-    width: auto;
+    width: 90vh;
     position: absolute;
     transform: translate(-50%, 0%);
 }
