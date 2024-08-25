@@ -521,7 +521,7 @@ body {
     }
 }
 
-/****LANGUAGES****/
+/**** LANGUAGES ****/
 
 #languages {
     background-color: #7cc3ea;
@@ -536,15 +536,18 @@ body {
 }
 
 #languages img {
+    position: absolute;
     width: 60vw;
 }
 
 #lang-cloud1 {
-    transform: translate(-30vw, -0vh);
+    top: -10vh;
+    left: -15vw;
 }
 
 #lang-cloud2 {
-    transform: translate(30vw, -10vh);    
+    bottom: 0;
+    right: 0;    
 }
 
 #languages h3 {
@@ -555,6 +558,7 @@ body {
 #languages p {
     margin: 0;
 }
+
 
 /****CONTACT****/
 #contact-section {
