@@ -1,8 +1,8 @@
-/***CURSOR***/
+/***CURSOR
 body {
     cursor: url('resources/cursor.png') 0 0, auto !important;
 }
-
+***/
 
 /****NAVBAR****/
 
@@ -150,12 +150,17 @@ body {
     text-decoration: none;
     animation: enlargeAndShrink 4s infinite ease-in-out;
     color: #7cc3ea;
-    margin-right: 7%;
+}
+
+.about-me-text a{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 @keyframes enlargeAndShrink {
     0%, 100% {
-        font-size: 1em; 
+        font-size: 1.07em; 
     }
     50% {
         font-size: 1.13em; 
@@ -233,7 +238,7 @@ body {
 }
 
 .education {
-    margin-bottom: 1.2em;
+    margin-bottom: 1.5em;
 }
 
 .education-cloud {
@@ -631,7 +636,7 @@ body {
 #contact-section .text {
     text-align: center;
     color: aliceblue;
-    z-index: 1; /* Ensure text is above the image */
+    z-index: 1;
 }
 
 #contact-section h3 {
@@ -642,7 +647,7 @@ body {
 
 #contact-section a {
     font-family: 'Sniglet', system-ui;
-    font-weight: 700;
+    font-weight: bold;
     text-decoration: none;
     color: aliceblue; 
     font-size: 1em;
@@ -650,6 +655,11 @@ body {
 
 #contact-section a:hover {
     animation: enlargeAndShrink 4s ease-in-out forwards;
+}
+
+#resume-link2 a{
+    margin-right: 0px !important;
+    padding: 0px !important;
 }
 
 #contact-section img {
@@ -662,10 +672,10 @@ body {
 
 @keyframes enlargeAndShrink {
     0%, 100% {
-        font-size: 1em; 
+        font-size: 0.9em; 
     }
     50% {
-        font-size: 1.13em; 
+        font-size: 1em; 
     }
 }
 
