@@ -165,12 +165,13 @@ body {
 
 @media (max-width: 900px) {
     .about-me-container {
-        width: 95vw;
+        width: 97vw;
     }
 
     .about-me-container img {
         content: url('resources/cloud111.png'); /* Cambia la imagen */
-        height: 88vh;
+        width: 95vw;
+        height: 75vh;
     }
 
     .about-me-text {
@@ -180,6 +181,7 @@ body {
 
     .about-me-text h3 {
         font-size: 2em;
+        margin-bottom: 0px !important;
     }
 
     .about-me-text p {
