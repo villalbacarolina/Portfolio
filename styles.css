@@ -441,21 +441,40 @@ body {
     position: relative; /* Necesario para posicionar elementos dentro del section */
     background-color: #7cc3ea;
     min-height: 100vh;
-    display: flex;
+    display:flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     overflow: hidden; /* Evita el scroll para las imágenes que sobresalen */
+    color: aliceblue;
 }
 
-#lang-cloud1 {
+#projects h3, #projects p, #project-title h4{
+    z-index: 9999  !important;
+    text-shadow: 1px 0 0 #7cc3ea, 0 1px 0 #7cc3ea, -1px 0 0 #7cc3ea, 0 -1px 0 #7cc3ea !important;
+}
+
+.project{
+    width: 45vw;
+}
+
+.project-text{
+    display: flex !important;
+}
+.project-bold-text{
+    margin-right: 1%;
+    font-weight: bold;
+}
+
+#projects-cloud1 {
     position: absolute;
     top: 0%;
     left: -5vw;
     height: 40vh;
     width: auto;
+    z-index: 1;
 }
-
-#lang-cloud2 {
+#projects-cloud2 {
     position: absolute;
     bottom: 0%;
     right: -5vw;
@@ -463,20 +482,38 @@ body {
     width: auto;
 }
 
-.lang-text {
-    position: relative; /* Para que el texto se mantenga centrado */
+#projects h4{
+    font-family: 'Sniglet', system-ui;
+    font-weight: bold;
     text-align: center;
-    color: white;
-    font-family: 'Sniglet', sans-serif;
+    z-index: 9999 !important;
+    text-shadow: 1px 0 0 #7cc3ea, 0 1px 0 #7cc3ea, -1px 0 0 #7cc3ea, 0 -1px 0 #7cc3ea !important;
 }
 
-.lang-text h3 {
-    font-size: 2em;
-    margin-bottom: 0.5em;
+#toggle-button {
+    position: relative;
+    cursor: pointer;
+    width: 50px;
+    height: auto;
+    z-index: 10;
 }
 
-.lang-text p {
-    font-size: 1.2em;
+@media (max-width: 768px) {
+    #projects-cloud1 {
+        height: 25vh;
+    }
+    #projects-cloud2 {
+        height: 25vh;
+    }
+}
+
+@media (max-width: 480px) {
+    #projects-cloud1 {
+        height: 15vh;
+    }
+    #projects-cloud2 {
+        height: 15vh;
+    }
 }
 
 

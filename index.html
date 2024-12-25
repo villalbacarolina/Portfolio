@@ -322,13 +322,103 @@
 
     <!---------------Projects------------->
     <section id="projects">
-        <img src="resources/cloud1.png" id="lang-cloud1" alt="cloud">
-        <div class="lang-text">
-            <h3>Projects</h3>
-            <p>im a project</p>
+        <img src="resources/cloud1.png" id="projects-cloud1" alt="cloud">
+        <h3>Projects</h3>
+        <h4 id="project-title">Medical Office</h4>
+        <div class="project">
+            <div class="project-text">
+                <p class="project-bold-text">Type:</p> 
+                <p id="project-type">Microservices</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Link:</p> 
+                <p id="project-link">github.com/villalbacarolina/Medical-Office</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Description:</p> 
+                <p id="project-description">Simple system that manages patients and their appointments.</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Status:</p> 
+                <p id="project-status">In progress</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Language:</p> 
+                <p id="project-language">English</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Participants:</p> 
+                <p id="project-participants">Individual</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Role:</p>
+                <p id="project-role">Back-end developer, Tester</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Tasks:</p>
+                <p id="project-tasks">Creation of two microservices for patient and appointment management using CRUDs with the necessary constraints made with annotations and queries to ensure robust and secure code.</p>
+            </div>
+            <div class="project-text">
+                <p class="project-bold-text">Technologies:</p>
+                <p id="project-technologies">Java, Spring Boot, Spring Cloud, Maven, MySQL, Hibernate, JPA, Docker, Git</p>
+            </div>
         </div>
-        <img src="resources/cloud4.png" id="lang-cloud2" alt="cloud">
+        <img src="resources/right-arrow.png" id="toggle-button" alt="Toggle Text">
+        <img src="resources/cloud4.png" id="projects-cloud2" alt="cloud">
     </section>
+
+    <script>
+        const projectData = {
+            title: ["El Mejor Postor"
+            , "Medical Office"],
+
+            type: ["Desktop application"
+            , "Microservices"],
+
+            link: ["github.com/villalbacarolina/El-Mejor-Postor"
+            , "github.com/villalbacarolina/Medical-Office"],
+
+            description: ["The company has a room that can be booked from midnight to 11pm. Every day, offers are received to book the room for the following day. Each offer includes the offerer, the desired time and the amount that the client is willing to pay. The application must, using a greedy algorithm, book only the set of offers that generate the maximum possible profit, ensuring that there is no overlap in the times of the chosen offers."
+            , "Simple system that manages patients and their appointments."],
+
+            status: ["Finished on Nov 2024"
+            , "In progress"],
+
+            language: ["Spanish"
+            , "English"],
+
+            participants: ["4 developers"
+            , "Individual"],
+
+            role: ["Back-end developer, Tester"
+            , "Back-end developer, Tester"],
+
+            tasks: ["File handling and persistence with JSON. Testing with JUnit ensuring the absence of a wide possibility of errors. Implementation following good practices, ensuring clear, fast, robust and scalable code. Version control following conventions to maintain an organized workflow. Refactorings."
+            , "Creation of two microservices for patient and appointment management using CRUDs with the necessary constraints made with annotations and queries to ensure robust and secure code."],
+
+            technologies: ["Java 8, JUnit, GitHub, UML, Swing"
+            , "Java, Spring Boot, Spring Cloud, Maven, MySQL, Hibernate, JPA, Docker, Git"]
+
+        };
+    
+        let currentIndex = 1;
+    
+        document.getElementById("toggle-button").addEventListener("click", () => {
+            currentIndex = (currentIndex + 1) % projectData.type.length;
+    
+            document.getElementById("project-title").textContent = projectData.title[currentIndex];
+            document.getElementById("project-link").textContent = projectData.link[currentIndex];
+            document.getElementById("project-type").textContent = projectData.type[currentIndex];
+            document.getElementById("project-description").textContent = projectData.description[currentIndex];
+            document.getElementById("project-status").textContent = projectData.status[currentIndex];
+            document.getElementById("project-language").textContent = projectData.language[currentIndex];
+            document.getElementById("project-participants").textContent = projectData.participants[currentIndex];
+            document.getElementById("project-role").textContent = projectData.role[currentIndex];
+            document.getElementById("project-tasks").textContent = projectData.tasks[currentIndex];
+            document.getElementById("project-technologies").textContent = projectData.technologies[currentIndex];
+        });
+    </script>
+    
 
     <!---------------Contact-------------->
 
