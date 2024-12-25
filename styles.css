@@ -169,10 +169,9 @@ body {
     }
 
     .about-me-container img {
-        padding-top: 3%;
         content: url('resources/cloud111.png'); /* Cambia la imagen */
         width: 95vw;
-        height: 65vh;
+        height: 70vh;
     }
 
     .about-me-text {
@@ -188,6 +187,12 @@ body {
     .about-me-text p {
         font-size: 0.9em;
     }
+    .about-me-text a {
+        animation: none;
+        display: flex;
+        justify-content: center;
+    }
+    
 
 }
 
