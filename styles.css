@@ -207,13 +207,17 @@ body {
 }
 
 #education-section a {
-    color: #64a1c3 !important;
+    color: #7cc3ea !important;
     text-decoration: none !important;
-    transition: font-size 0.1s ease; 
+    z-index: 99 !important;
 }
 
-#education-section a:hover {
-    animation: enlargeAndShrink 4s ease-in-out forwards;
+.certificate .date{
+    padding-bottom: 4%;
+}
+
+.certificate-link p{
+    padding: 4%;
 }
 
 #education-section h6 {
@@ -236,7 +240,7 @@ body {
 
 .education {
     margin: 0%;
-    margin-bottom: 1.4em;
+    margin-bottom: 1.5em;
 }
 
 .education-cloud {
@@ -245,6 +249,37 @@ body {
     position: absolute;
     transform: translate(-50%, 0%);
 }
+
+#education-section a.certificate-link {
+    text-decoration: none !important;
+    display: inline-block;
+    position: relative; /* Necesario para posicionar el fondo */
+}
+
+
+#education-section a.certificate-link {
+    color: #7cc3ea !important;
+    text-decoration: none !important;
+    display: inline-block;
+    position: relative; /* Necesario para posicionar el fondo */
+}
+
+#education-section a.certificate-link::before {
+    content: "";
+    position: absolute;
+    transform: translate(-00%, -20%); /* Ajusta el centrado */
+    width: 110%; /* Ajusta el ancho relativo al texto */
+    height: 200%; /* Ajusta la altura relativa al texto */
+    background-image: url('resources/cloud1.png'); /* Ruta de la imagen */
+    background-size: contain; /* La imagen se adapta al tamaño establecido */
+    background-repeat: no-repeat;
+    z-index: -999; 
+}
+
+.date{
+    margin-bottom: 40%;
+}
+
 
 @media (max-width: 1200px) {
     .education-cloud {
@@ -559,21 +594,6 @@ body {
     text-align: center;
     position: relative;
     min-height: 100vh;
-}
-
-#languages img {
-    position: absolute;
-    width: 60vw;
-}
-
-#lang-cloud1 {
-    top: -10vh;
-    left: -15vw;
-}
-
-#lang-cloud2 {
-    bottom: 0;
-    right: 0;    
 }
 
 #languages h3 {
