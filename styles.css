@@ -171,7 +171,7 @@ body {
     .about-me-container img {
         content: url('resources/cloud111.png'); /* Cambia la imagen */
         width: 95vw;
-        height: 75vh;
+        height: 70vh;
     }
 
     .about-me-text {
@@ -213,7 +213,7 @@ body {
 }
 
 .certificate .date{
-    padding-bottom: 4%;
+    padding-bottom: 3%;
 }
 
 .certificate-link p{
@@ -228,10 +228,13 @@ body {
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 2em;
     margin-bottom: 3%;
+    text-align: center;
 }
 
 #education-section h4 {
-    font-weight: 900 !important;
+    font-weight:900;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 
 #education-section h6, #education-section a, #education-section p {
@@ -240,7 +243,7 @@ body {
 
 .education {
     margin: 0%;
-    margin-bottom: 1.5em;
+    margin-bottom: 1.2em;
 }
 
 .education-cloud {
@@ -253,7 +256,7 @@ body {
 #education-section a.certificate-link {
     text-decoration: none !important;
     display: inline-block;
-    position: relative; /* Necesario para posicionar el fondo */
+    position: relative;
 }
 
 
@@ -262,6 +265,7 @@ body {
     text-decoration: none !important;
     display: inline-block;
     position: relative; /* Necesario para posicionar el fondo */
+    
 }
 
 #education-section a.certificate-link::before {
