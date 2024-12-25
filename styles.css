@@ -206,17 +206,9 @@ body {
 }
 
 #education-section a {
-    color: #7cc3ea !important;
-    text-decoration: none !important;
+    color: aliceblue;
     z-index: 99 !important;
-}
 
-.certificate .date{
-    padding-bottom: 3%;
-}
-
-.certificate-link p{
-    padding: 4%;
 }
 
 #education-section h6 {
@@ -241,7 +233,6 @@ body {
 }
 
 .education {
-    margin: 0%;
     margin-bottom: 1.2em;
 }
 
@@ -251,38 +242,6 @@ body {
     position: absolute;
     transform: translate(-50%, 0%);
 }
-
-#education-section a.certificate-link {
-    text-decoration: none !important;
-    display: inline-block;
-    position: relative;
-}
-
-
-#education-section a.certificate-link {
-    color: #7cc3ea !important;
-    text-decoration: none !important;
-    display: inline-block;
-    position: relative; /* Necesario para posicionar el fondo */
-    
-}
-
-#education-section a.certificate-link::before {
-    content: "";
-    position: absolute;
-    transform: translate(-00%, -20%); /* Ajusta el centrado */
-    width: 110%; /* Ajusta el ancho relativo al texto */
-    height: 200%; /* Ajusta la altura relativa al texto */
-    background-image: url('resources/cloud1.png'); /* Ruta de la imagen */
-    background-size: contain; /* La imagen se adapta al tamaño establecido */
-    background-repeat: no-repeat;
-    z-index: -999; 
-}
-
-.date{
-    margin-bottom: 40%;
-}
-
 
 @media (max-width: 1200px) {
     .education-cloud {
@@ -409,6 +368,10 @@ body {
 
 @media (max-width: 768px) {
 
+    .technologies{
+        width: 55vw;
+    }
+
 
     .techtitle {
         font-size: 1em;
@@ -425,6 +388,11 @@ body {
 }
 
 @media (max-width: 480px) {
+
+    .technologies{
+        width: 70vw;
+    }
+
     .technology {
         width: calc(50% - 10px); 
         
@@ -610,7 +578,6 @@ body {
 }
 
 /**** LANGUAGES ****/
-
 #languages {
     background-color: #7cc3ea;
     color: aliceblue;
@@ -625,12 +592,28 @@ body {
 
 #languages h3 {
     margin: 0;
-    color: aliceblue;
+    color: #7cc3ea;
+    position: relative;
+    padding: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background-image: url('resources/cloud1.png');
+    background-size: contain; /* Ajusta la imagen al tamaño del texto */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 5%;
 }
 
 #languages p {
     margin: 0;
 }
+
+.lang-text {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté por encima de la imagen */
+}
+
 
 
 /****CONTACT****/
