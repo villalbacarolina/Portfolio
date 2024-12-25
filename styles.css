@@ -94,7 +94,7 @@ body {
 
 /****ABOUT ME****/
 
-#about-me-section {
+.about-me-section {
     padding-top: 3%;
     padding-bottom: 3%;
     width: 100vw;
@@ -171,7 +171,7 @@ body {
     .about-me-container img {
         content: url('resources/cloud111.png'); /* Cambia la imagen */
         width: 95vw;
-        height: 70vh;
+        height: 65vh;
     }
 
     .about-me-text {
