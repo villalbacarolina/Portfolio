@@ -452,6 +452,10 @@ body {
     text-shadow: 1px 0 0 #7cc3ea, 0 1px 0 #7cc3ea, -1px 0 0 #7cc3ea, 0 -1px 0 #7cc3ea !important;
 }
 
+#projects h3{
+    margin-top: 10vh;
+}
+
 .project{
     width: 45vw;
 }
@@ -461,7 +465,7 @@ body {
 }
 .project-bold-text{
     margin-right: 1%;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 #projects-cloud1 {
@@ -496,21 +500,25 @@ body {
     z-index: 10;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 700px) {
     #projects-cloud1 {
+        left: -10vw;
         height: 25vh;
     }
     #projects-cloud2 {
+        right: -10vw;
         height: 25vh;
     }
 }
 
 @media (max-width: 480px) {
     #projects-cloud1 {
-        height: 15vh;
+        left: -35vw;
+        height: 17vh;
     }
     #projects-cloud2 {
-        height: 15vh;
+        right: -35vw;
+        height: 17vh;
     }
 }
 
