@@ -1,9 +1,7 @@
-/*
+/***CURSOR***/
 body {
-    cursor: url('resources/cursor.png'), auto !important;
-    filter: drop-shadow(0 0 0 transparent) !important;
+    cursor: url('resources/cursor.png') 0 0, auto !important;
 }
-*/
 
 
 /****NAVBAR****/
