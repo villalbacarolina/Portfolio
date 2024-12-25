@@ -114,48 +114,44 @@ body {
 
 .about-me-container img {
     width: 100%;
-    height: auto; 
+    height: 95vh; 
     display: block; 
 }
 
-.about-me-text p{
-    font-family: 'Sniglet', system-ui;
-    margin-top: 5%;
-    margin-bottom: 3% !important;
-    font-size: 98%; 
-}
-.about-me-text a{
-    font-family: 'Sniglet', system-ui;
-    font-weight: 700;
-    font-size: 1em; 
-    text-decoration: none;
-    animation: enlargeAndShrink 4s infinite ease-in-out;
-    color: #7cc3ea;
-}
 .about-me-text {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: #7cc3ea;
-    font-size: 2vw; 
     text-align: center;
-    font-size: 1em;
-    
+    width: 90%;
+    padding: 5%;
+    box-sizing: border-box;
 }
 
-.about-me-text h3{
+.about-me-text h3 {
     font-family: 'KawaiiBubble', sans-serif;
-    font-size: 2em !important;
+    font-size: 2em;
+    margin-bottom: 1em;
 }
 
-@media (max-width: 768px) {
-    .about-me-container {
-        width: 93vw;
-    }
-    .about-me-text p{
-        font-size: 0.8em;
-    }
+.about-me-text p {
+    font-family: 'Sniglet', system-ui;
+    font-size: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.5;
+}
+
+.about-me-text a {
+    font-family: 'Sniglet', system-ui;
+    font-weight: 700;
+    font-size: 1em;
+    text-decoration: none;
+    animation: enlargeAndShrink 4s infinite ease-in-out;
+    color: #7cc3ea;
+    margin-right: 7%;
 }
 
 @keyframes enlargeAndShrink {
@@ -166,8 +162,30 @@ body {
         font-size: 1.13em; 
     }
 }
-.about-me-text a{
-    margin-right: 7%;
+
+@media (max-width: 900px) {
+    .about-me-container {
+        width: 95vw;
+    }
+
+    .about-me-container img {
+        content: url('resources/cloud111.png'); /* Cambia la imagen */
+        height: 88vh;
+    }
+
+    .about-me-text {
+        width: 75%;
+        padding: 4%;
+    }
+
+    .about-me-text h3 {
+        font-size: 2em;
+    }
+
+    .about-me-text p {
+        font-size: 0.9em;
+    }
+
 }
 
 /****EDUCATION****/
