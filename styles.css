@@ -134,6 +134,7 @@ body {
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 2em;
     margin-bottom: 1em;
+    text-align: center !important;
 }
 
 .about-me-text p {
@@ -332,77 +333,6 @@ body {
 
 
 /****EXPERIENCE****/
-/*
-#experience-section {
-    background-color: #7cc3ea;
-    padding: 5%;
-    color: #f0f8ff;
-    position: relative;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Sniglet', system-ui;
-}
-
-#experience-section img{
-    position: absolute;
-    right: 0;
-    width: 70vw; 
-    transform: translateX(52.5%);
-}
-
-.experience{
-    text-align: center;
-}
-
-
-#experience-section h6{
-    font-weight: 600;
-    margin: 0%;
-}
-
-#experience-section h3{
-    margin-bottom: 2%;
-    font-family: 'KawaiiBubble', sans-serif;
-    font-size: 2em;
-}
-
-#experience-section p{
-    margin: 0;
-}
-
-
-.exp-information {
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    margin-bottom: 10px; 
-}
-
-.exp-information p {
-    margin: 0; 
-}
-
-.exp-description { 
-    text-align: left;
-    transform: translateX(-8%);
-    width: 80%;
-    margin: 0 auto; 
-}
-
-#space{
-    margin-right: 5px !important;
-}
-
-#experience-section h6{
-    font-size: 1.23em;
-}
-*/
 
 /* TECHNOLOGIES */
 #technologies-section {
@@ -505,6 +435,50 @@ body {
         width: 40%;
     }
 }
+/*PROJECTS*/
+
+#projects {
+    position: relative; /* Necesario para posicionar elementos dentro del section */
+    background-color: #7cc3ea;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Evita el scroll para las imágenes que sobresalen */
+}
+
+#lang-cloud1 {
+    position: absolute;
+    top: 0%;
+    left: -5vw;
+    height: 40vh;
+    width: auto;
+}
+
+#lang-cloud2 {
+    position: absolute;
+    bottom: 0%;
+    right: -5vw;
+    height: 40vh;
+    width: auto;
+}
+
+.lang-text {
+    position: relative; /* Para que el texto se mantenga centrado */
+    text-align: center;
+    color: white;
+    font-family: 'Sniglet', sans-serif;
+}
+
+.lang-text h3 {
+    font-size: 2em;
+    margin-bottom: 0.5em;
+}
+
+.lang-text p {
+    font-size: 1.2em;
+}
+
 
 /****SOFT SKILLS****/
 
