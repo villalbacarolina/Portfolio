@@ -473,7 +473,7 @@ body {
     z-index: 10;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 1150px) {
     #projects-cloud1 {
         left: -10vw;
         height: 25vh;
@@ -486,20 +486,20 @@ body {
         width: 65vw;
     }
 }
-
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     #projects-cloud1 {
-        left: -35vw;
-        height: 17vh;
+        left: -15vw;
+        height: 20vh;
     }
     #projects-cloud2 {
-        right: -35vw;
-        height: 17vh;
+        right: -15vw;
+        height: 20vh;
     }
     .project{
         width: 80vw;
     }
 }
+
 
 
 /****SOFT SKILLS****/
