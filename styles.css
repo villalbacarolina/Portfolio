@@ -740,12 +740,4 @@ body {
     }
   }
 
-  /**VISITS**/
-
-  #visitCount{
-    background-color: aliceblue;
-    color:#7cc3ea;
-    text-align: end;
-    margin: 0px;
-    padding: 0%;
-  }
+ 

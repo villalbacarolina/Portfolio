@@ -438,21 +438,6 @@
     </section>
 
     <!---------------Visits-------------->
-    <p id="visitCount">Loading visits...</p>
-    <script>
-        if (!localStorage.getItem("visits")) {
-            localStorage.setItem("visits", 0);
-        }
-        
-        function updateVisitCount() {
-            let visits = parseInt(localStorage.getItem("visits"));
-            visits += 1;
-            localStorage.setItem("visits", visits);
-            document.getElementById("visitCount").textContent = visits + " visits";
-        }
-        
-        window.onload = updateVisitCount;
-    </script>
     
     <!--*************Bootstrap**********-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
