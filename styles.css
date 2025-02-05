@@ -534,9 +534,8 @@ body {
 }
 
 #soft-skills-section img {
-    width: 110vw;
+    width: 100vw;
     height: 20vw;
-    transform: translateX(-5vw) !important;
     background-color: #7cc3ea;
 }
 
@@ -600,15 +599,15 @@ body {
     margin: 0;
     color: #7cc3ea;
     position: relative;
-    padding: 1.5em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+    padding: 4em;
+    padding-top: 4em;
+    padding-bottom: 4em;
     background-image: url('resources/cloud1.png');
     background-size: contain; /* Ajusta la imagen al tamaño del texto */
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-bottom: 5%;
+    margin-bottom: 5vh;
 }
 
 #languages p {
