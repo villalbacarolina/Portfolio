@@ -63,7 +63,7 @@ body {
 
 /****HEADER****/
 
-#header-section {
+#header {
     height: 100vh;
     background-image: url("resources/background.jpeg");
     background-position: center center;
@@ -76,15 +76,15 @@ body {
     text-align: center;
 }
 
-#header-section h1, header h2 {
+#header h1, header h2 {
     margin: 0;
     color: aliceblue;
 }
-#header-section h1{
+#header h1{
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 3.1em;
 }
-#header-section h2{
+#header h2{
     font-size: 2.1em;
     font-family: 'Sniglet', system-ui;
 }
@@ -203,7 +203,7 @@ body {
 
 /****EDUCATION****/
 
-#education-section {
+#education {
     background-color: #7cc3ea;
     padding: 3%;
     color: aliceblue;
@@ -211,30 +211,30 @@ body {
     min-height: 100vh;
 }
 
-#education-section a {
+#education a {
     color: aliceblue;
     z-index: 99 !important;
 
 }
 
-#education-section h6 {
+#education h6 {
     font-weight: 900 !important;
 }
 
-#education-section h3 {
+#education h3 {
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 2em;
     margin-bottom: 3%;
     text-align: center;
 }
 
-#education-section h4 {
+#education h4 {
     font-weight:900;
     padding-top: 1%;
     padding-bottom: 1%;
 }
 
-#education-section h6, #education-section a, #education-section p {
+#education h6, #education a, #education p {
     margin: 0% !important;
 }
 
@@ -298,7 +298,7 @@ body {
 /****EXPERIENCE****/
 
 /* TECHNOLOGIES */
-#technologies-section {
+#technologies {
     min-height: 100vh;
     background-color: #7cc3ea;
     color: aliceblue;
@@ -321,7 +321,7 @@ body {
     transform: translate(-10%, 15%);
 }
 
-#technologies-section h3 {
+#technologies h3 {
     margin: 0;
     margin-bottom: 1.25%;
     margin-top: 2%;
@@ -359,11 +359,11 @@ body {
     margin-bottom: 5px;
 }
 
-#technologies-section p {
+#technologies p {
     margin-bottom: 0;
 }
 
-#technologies-section h4 {
+#technologies h4 {
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
