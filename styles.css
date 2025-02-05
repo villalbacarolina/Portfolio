@@ -92,7 +92,7 @@ body {
 
 /****ABOUT ME****/
 
-.about-me-section {
+.about-me {
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     width: 100vw;
@@ -505,35 +505,35 @@ body {
 
 /****SOFT SKILLS****/
 
-#soft-skills-section h4, #soft-skills-section img {
+#soft-skills h4, #soft-skills img {
     margin: 0;
     padding: 0;
 }
 
-#soft-skills-section {
+#soft-skills {
     width: 100vw;
     background-color: aliceblue;
     color: #7cc3ea;
     font-family: 'Sniglet', system-ui;
 }
 
-#soft-skills-section h3 {
+#soft-skills h3 {
     color: #7cc3ea;
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 2em;
     text-align: center;
 }
 
-#soft-skills-section h4{
+#soft-skills h4{
     font-size: 1.3em;
 }
 
-#soft-skills-section p{
+#soft-skills p{
     margin: 0;
     padding: 0;
 }
 
-#soft-skills-section img {
+#soft-skills img {
     width: 100vw;
     height: 20vw;
     background-color: #7cc3ea;
@@ -622,7 +622,7 @@ body {
 
 
 /****CONTACT****/
-#contact-section {
+#contact {
     position: relative;
     display: flex;
     justify-content: center;
@@ -633,19 +633,19 @@ body {
     background-color: #7cc3ea;
 }
 
-#contact-section .text {
+#contact .text {
     text-align: center;
     color: aliceblue;
     z-index: 1;
 }
 
-#contact-section h3 {
+#contact h3 {
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 1.8em;
     margin: 0; 
 }
 
-#contact-section a {
+#contact a {
     font-family: 'Sniglet', system-ui;
     font-weight: bold;
     text-decoration: none;
@@ -653,7 +653,7 @@ body {
     font-size: 1em;
 }
 
-#contact-section a:hover {
+#contact a:hover {
     animation: enlargeAndShrink 4s ease-in-out forwards;
 }
 
@@ -662,7 +662,7 @@ body {
     padding: 0px !important;
 }
 
-#contact-section img {
+#contact img {
     width: 100%;
     position: absolute;
     bottom: 0; 
