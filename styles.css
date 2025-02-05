@@ -152,10 +152,11 @@ body {
     color: #7cc3ea;
 }
 
-.about-me-text a{
-    justify-content: center;
+.resumes{
     display: flex;
     flex-wrap: wrap;
+    margin:3px;
+    justify-content: space-evenly;
 }
 
 @keyframes enlargeAndShrink {
