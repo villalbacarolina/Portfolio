@@ -297,8 +297,8 @@ body {
 
 /****EXPERIENCE****/
 
-/* TECHNOLOGIES */
-#technologies {
+/* HARD SKILLS */
+#hard-skills {
     min-height: 100vh;
     background-color: #7cc3ea;
     color: aliceblue;
@@ -321,7 +321,7 @@ body {
     transform: translate(-10%, 15%);
 }
 
-#technologies h3 {
+#hard-skills h3 {
     margin: 0;
     margin-bottom: 1.25%;
     margin-top: 2%;
@@ -359,11 +359,11 @@ body {
     margin-bottom: 5px;
 }
 
-#technologies p {
+#hard-skills p {
     margin-bottom: 0;
 }
 
-#technologies h4 {
+#hard-skills h4 {
     font-weight: 600;
     margin-top: 20px;
     margin-bottom: 20px;
