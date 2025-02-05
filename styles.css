@@ -122,13 +122,13 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: #7cc3ea;
-    text-align: center;
     width: 90%;
     padding: 5%;
     box-sizing: border-box;
 }
 
 .about-me-text h3 {
+    text-align: center;
     font-family: 'KawaiiBubble', sans-serif;
     font-size: 2em;
     margin-bottom: 1em;
